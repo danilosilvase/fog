@@ -50,9 +50,9 @@ public class MyController extends SimEntity {
 		setMyFogDevices(fogDevices);
 		setMyActuators(actuators);
 		setMySensors(sensors);
-		connectWithLatencies();
+		//connectWithLatencies();
 		// gatewaySelection();
-		formClusters();
+		//formClusters();
 	}
 
 	private MyFogDevice getMyFogDeviceById(int id) {

@@ -60,7 +60,7 @@ public class MultiAppv1Mobility {
 	static String mobilityDestination2 = "e-0-1";
 	static Map<String, Integer> getIdByName = new HashMap<String, Integer>();
 
-	static boolean CLOUD = true;
+	static boolean CLOUD = false;
 
 	static int numOfGateways = 2;
 	static int numOfEndDevPerGateway = 4;
@@ -86,9 +86,9 @@ public class MultiAppv1Mobility {
 
 			ModuleMapping moduleMapping = ModuleMapping.createModuleMapping();
 
-			moduleMapping.addModuleToDevice("moduleC_1", "e-0-0");
-			moduleMapping.addModuleToDevice("moduleD_1", "e-1-0");
-			moduleMapping.addModuleToDevice("moduleB_1", "e-0-0");
+			moduleMapping.addModuleToDevice("moduleC_1", "e-1-0");
+			moduleMapping.addModuleToDevice("moduleD_1", "cloud");
+			moduleMapping.addModuleToDevice("moduleB_1", "e-1-0");
 			moduleMapping.addModuleToDevice("moduleA_1", "e-1-0");
 			// moduleMapping.addModuleToDevice("moduleA_1", "e-1-0");
 			// moduleMapping.addModuleToDevice("moduleA_1", "e-1-0");
