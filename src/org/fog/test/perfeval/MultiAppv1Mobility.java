@@ -3,8 +3,7 @@ package org.fog.test.perfeval;
 //Até este ponto a aplicação executa na fog sem problemas utilizando uma abordagem de colocação fixa. 12/07/2018
 //Entendendo a mobilidade 20/09/2018.
 
-// empirical analysis
-
+// empirical analysis..
 
 import java.util.ArrayList;
 import java.util.Calendar;
