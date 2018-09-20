@@ -5,9 +5,6 @@ package org.fog.test.perfeval;
 
 // empirical analysis
 
-////
-///
-
 
 import java.util.ArrayList;
 import java.util.Calendar;
